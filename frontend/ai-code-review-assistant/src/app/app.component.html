@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>AI-Powered Code Review</h1>
+  <textarea [(ngModel)]="code" placeholder="Enter your code here..."></textarea>
+  <button (click)="submitCode()">Review Code</button>
+  <div>
+    <pre>{{ review }}</pre>
+  </div>
+</div>
